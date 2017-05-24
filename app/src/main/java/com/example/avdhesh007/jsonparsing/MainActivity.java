@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                     String jasn2=jsonObject2.getString("email");
                     String jasn3=jsonObject2.getString("created_at");
                     String jasn4=jsonObject2.getString("updated_at");
+                    //printing json as string;
                     Toast.makeText(getApplicationContext(),jsnarr+jsn1+" "+jsn2+" "+jsn3+" "+jasn1+" "+jasn2+" "+jasn3+" "+jasn3+" "+jasn4,Toast.LENGTH_LONG).show();
                 } catch (JSONException e) {
                     e.printStackTrace();
